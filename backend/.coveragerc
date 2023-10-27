@@ -1,7 +1,2 @@
 [run]
-branch = True
-
-[paths]
-source =
-    tests/
-    src/fullint/
+source = be_tugas4_pwl_120140048

@@ -1,5 +1,5 @@
-include *.rst
-include *.txt
-include .coveragerc
-include LICENSE
-recursive-include tests *.py
+include *.txt *.ini *.cfg *.rst
+recursive-include be_tugas4_pwl_120140048 *.ico *.png *.css *.gif *.jpg *.pt *.txt *.mak *.mako *.js *.html *.xml *.jinja2
+recursive-include tests *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
